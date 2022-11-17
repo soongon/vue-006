@@ -17,7 +17,7 @@ function demoEventEmitted(d) {
 
 <template>
   <shop-title :title="state.title">
-    <h2>슬롯으로 전달되는 컨텐츠</h2>
+    <h2>슬롯으로 전달되는 컨텐츠..</h2>
   </shop-title>
   <product-search @demo-event="demoEventEmitted"></product-search>  
   <product-list :products="state.products"></product-list>
